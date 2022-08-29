@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balázs órarendje</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            text-align: center;
+        }
+        nav {
+            width: 95vw;
+            text-align: center;
+            font-size: 2em;
+            padding: 0.5em;
+            margin: 0 auto;
+            border: 1px solid grey;
+            background-color: whitesmoke;
+        }
+        main {
+            text-align: center;
+        }
+        #output-field {
+            padding: 2em;
+        }
+        table, thead, tbody, th, tr, td {
+            font-size: 1.1em;
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+        #table-field {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            margin-top: 5em;
+        }
+        #Hé, #Ke, #Sze, #Csüt, #Pén, #Szo, #Vas {
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+        }
+        #choir-time, #chamber1-time, #guitar-time, #zir-time, #acoustics-time, #chamber2-time, #szolf-time, #guitarorch-time, #prog-time, #swim-time {
+            border-left: 2px solid black;
+        }
+        #choir-lesson, #chamber1-lesson, #guitar-lesson, #zir-lesson, #acoustics-lesson, #chamber2-lesson, #szolf-lesson, #guitarorch-lesson, #prog-lesson, #swim-itself {
+            border-right: 2px solid black;
+        }
+        @media (max-width: 425px) {
+    nav {
+        width: 100vw;
+        font-size: 1.5em;
+        padding: 0.2em;
+    }
+    #table-field {
+        overflow-x:scroll;
+    }
+    body {
+        overflow: hidden;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>
+            Órarend
+        </h1>
+    </nav>
+    <hr>
+    <main>
+    <div id="table-field">
+        <table>
+            <thead>
+              <tr>
+                <th colspan="2" id="Hé">Hétfő</th>
+                <th colspan="2" id="Ke">Kedd</th>
+                <th colspan="2" id="Sze">Szerda</th>
+                <th colspan="2" id="Csüt">Csütörtök</th>
+                <th colspan="2" id="Pén">Péntek</th>
+                <th colspan="2" id="Szo">Szombat</th>
+                <th colspan="2" id="Vas">Vasárnap</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td id="choir-time">12:00-14:00</td>
+                <td id="choir-lesson">Kórus</td>
+                <td id="zir-time">8:30-10:00</td>
+                <td id="zir-lesson">ZIR</td>
+                <td id="szolf-time">13:00-14:30</td>
+                <td id="szolf-lesson">Szolf.-Zeneelm.</td>
+                <td></td>
+                <td></td>
+                <td id="prog-time">8:00-15:00</td>
+                <td id="prog-lesson">Programozás</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td id="chamber1-time">14:00~14:30</td>
+                <td id="chamber1-lesson">Kamara</td>
+                <td id="acoustics-time">12:00-13:30</td>
+                <td id="acoustics-lesson">Akusztika</td>
+                <td id="guitarorch-time">16:00-18:00</td>
+                <td id="guitarorch-lesson">Gitárzenekar</td>
+                <td></td>
+                <td></td>
+                <td id="swim-time">~15:00</td>
+                <td id="swim-itself">Úszás</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td id="guitar-time">16:00-18:00</td>
+                <td id="guitar-lesson">Főtárgy</td>
+                <td id="chamber2-time">15:00~16:00</td>
+                <td id="chamer2-lesson">Kamara ad lib.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+    </div>
+    </main>
+    <script src="utilities.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
