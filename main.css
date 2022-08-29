@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 nav {
     width: 95vw;
@@ -12,9 +13,6 @@ nav {
     margin: 0 auto;
     border: 1px solid grey;
     background-color: whitesmoke;
-}
-main {
-    text-align: center;
 }
 #output-field {
     padding: 2em;
@@ -31,6 +29,7 @@ table, thead, tbody, th, tr, td {
 }
 table {
     margin-top: 5em;
+    width: 50vw;
 }
 #Hé, #Ke, #Sze, #Csüt, #Pén, #Szo, #Vas {
     border-right: 2px solid black;
@@ -45,14 +44,32 @@ table {
 }
 @media (max-width: 425px) {
 nav {
-width: 100vw;
-font-size: 1.5em;
-padding: 0.2em;
-}
+    width: 100vw;
+    font-size: 1.2em;
+    padding: 0.2em;
+  }
 #table-field {
-overflow-x:scroll;
-}
+    display:block;
+    overflow-x: scroll;
+    max-width: 99vw;
+  }
+  table {
+    width: 99vw;
+  }
 body {
-overflow: hidden;
+    overflow: hidden;
+  }
 }
+@media (max-width: 768px){
+    body {
+        overflow: hidden;
+    }
+    nav {
+        width: 100vw;
+    }
+    #table-field {
+        display: block;
+        overflow-x: scroll;
+        width: 99vw;
+      }
 }
