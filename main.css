@@ -32,9 +32,8 @@ table {
     width: 50vw;
 }
 #Hé, #Ke, #Sze, #Csüt, #Pén, #Szo, #Vas {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
+    border: 2px solid black;
+    border-radius: 18px; 
 }
 #choir-time, #chamber1-time, #guitar-time, #zir-time, #acoustics-time, #chamber2-time, #szolf-time, #guitarorch-time, #prog-time, #swim-time {
     border-left: 2px solid black;
@@ -57,12 +56,12 @@ nav {
     width: 99vw;
   }
 body {
-    overflow: hidden;
+    overflow-y: hidden;
   }
 }
 @media (max-width: 768px){
     body {
-        overflow: hidden;
+        overflow-y: hidden;
     }
     nav {
         width: 100vw;
