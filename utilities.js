@@ -15,6 +15,8 @@ const date = new Date()
         let szombat = document.getElementById("Szo")
         let vasárnap = document.getElementById("Vas")
 
+        let artHistoryTime = document.getElementById("arthistory-time")
+        let artHistoryLesson = document.getElementById("arthistory-lesson")
         let choirTime = document.getElementById("choir-time")
         let choirLesson = document.getElementById("choir-lesson")
         let chamber1time = document.getElementById("chamber1-time")
