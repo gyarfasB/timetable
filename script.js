@@ -7,18 +7,18 @@ function update() {
         kedd.style.backgroundColor = "cadetblue"
         kedd.style.color = "white"
 
-        if(hours >= 11 && minutes >= 30){
+        if(hours >= 11 && minutes >= 30 && hours >= 12 && minutes <= 30){
         artHistoryTime.style.backgroundColor = "cadetblue"
         artHistoryLesson.style.color = "white"
         artHistoryLesson.style.backgroundColor = "cadetblue"
         artHistoryTime.style.color = "white"
         }
-        if(hours >= 12 && minutes <= 30){
+  /*       if(hours >= 12 && minutes <= 30){
         artHistoryTime.style.backgroundColor = "cadetblue"
         artHistoryLesson.style.color = "white"
         artHistoryLesson.style.backgroundColor = "cadetblue"
         artHistoryTime.style.color = "white"
-        }
+        } amúgy is hülyeség volt*/
         if(hours >= 12 && hours <= 14){
         choirTime.style.backgroundColor = "cadetblue"
         choirLesson.style.color = "white"
