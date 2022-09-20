@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 2em;
 
 }
 nav {
@@ -35,10 +36,10 @@ table {
     border: 2px solid black;
     border-radius: 18px; 
 }
-#arthistory-time, #choir-time, #chamber1-time, #guitar-time, #zir-time, #acoustics-time, #chamber2-time, #szolf-time, #guitarorch-time, #prog-time, #swim-time {
+#arthistory-time, #choir-time, #chamber1-time, #guitar-time, #zir-time, #acoustics-time, #guitar-time, #szolf-time, #guitarorch-time, #prog-time, #swim-time {
     border-left: 2px solid black;
 }
-#choir-lesson, #chamber1-lesson, #guitar-lesson, #zir-lesson, #acoustics-lesson, #chamber2-lesson, #szolf-lesson, #guitarorch-lesson, #prog-lesson, #swim-itself {
+#choir-lesson, #chamber1-lesson, #guitar-lesson, #zir-lesson, #acoustics-lesson, #guitar2-lesson, #szolf-lesson, #guitarorch-lesson, #prog-lesson, #swim-itself {
     border-right: 2px solid black;
 }
 @media (max-width: 425px) {

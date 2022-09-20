@@ -31,7 +31,7 @@ function update() {
             chamber1lesson.style.backgroundColor = "cadetblue"
             chamber1lesson.style.color = "white"
         }
-        if(hours >= 16 && hours <= 18){
+        if(hours >= 19 && hours <= 20){
             guitarTime.style.backgroundColor = "cadetblue"
             guitarTime.style.color ="white"
             guitarLesson.style.backgroundColor = "cadetblue"
