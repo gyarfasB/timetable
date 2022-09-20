@@ -1,6 +1,6 @@
 function update() {
     if(weekday == 1){ //HÉTFŐ
-        hétfő.style.backgroundColor = "cadetblue"
+        hétfő.style.backgroundColor = "darkcyan"
         hétfő.style.color = "white"
     }
     if(weekday == 2){ //KEDD
@@ -40,7 +40,7 @@ function update() {
         }    
     }
     if(weekday == 3){ //SZERDA
-        szerda.style.backgroundColor = "cadetblue"
+        szerda.style.backgroundColor = "darkorange"
         szerda.style.color = "white"
         if(hours >= 8 && hours <= 10){
             zirTime.style.backgroundColor = "cadetblue"
@@ -62,7 +62,7 @@ function update() {
         }
     }
     if(weekday == 4){ //CSÜTÖRTÖK
-        csütörtök.style.backgroundColor = "cadetblue"
+        csütörtök.style.backgroundColor = "darkolivegreen"
         csütörtök.style.color = "white"
         if(hours >= 13 && hours <= 15) {
             szolfTime.style.backgroundColor = "cadetblue"
@@ -78,15 +78,15 @@ function update() {
         }
     }
     if(weekday == 5){ //PÉNTEK
-        péntek.style.backgroundColor = "cadetblue"
+        péntek.style.backgroundColor = "darkred"
         péntek.style.color = "white"
     }
     if(weekday == 6){ //SZOMBAT
-        szombat.style.backgroundColor = "cadetblue"
+        szombat.style.backgroundColor = "darkturquoise"
         szombat.style.color = "white"
     }
     if(weekday == 0){ //VASÁRNAP
-        vasárnap.style.backgroundColor = "cadetblue"
+        vasárnap.style.backgroundColor = "darkgoldenrod"
         vasárnap.style.color = "white"
     }
 }

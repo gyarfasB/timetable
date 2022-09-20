@@ -4,6 +4,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     padding: 2em;
+    background-color: #e9faff;
 
 }
 nav {
@@ -13,7 +14,6 @@ nav {
     padding: 0.5em;
     margin: 0 auto;
     border: 1px solid grey;
-    background-color: whitesmoke;
 }
 #output-field {
     padding: 2em;
