@@ -60,6 +60,12 @@ function update() {
             chamber2lesson.style.backgroundColor = "cadetblue"
             chamber2lesson.style.color = "white"
         }
+        if(hours >= 20 && hours <= 21) {
+            contiTime.style.backgroundColor = "cadetblue"
+            contiTime.style.color = "white"
+            contiLesson.style.backgroundColor = "cadetblue"
+            contiLesson.style.color = "white"
+        }
     }
     if(weekday == 4){ //CSÜTÖRTÖK
         csütörtök.style.backgroundColor = "darkolivegreen"
